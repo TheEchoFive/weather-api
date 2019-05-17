@@ -2,9 +2,9 @@ const express = require('express');
 const request = require('request');
 const app = express();
 const PORT = process.env.PORT || 3000;
-let weatherParse = '';
-let counter = 1;
 
+let weatherParse;
+let counter = 1;
 
 let apiKey = 'f9d5106fd248c9f39548c1e7d65f6986';
 app.get('/:city', (req, res) => {

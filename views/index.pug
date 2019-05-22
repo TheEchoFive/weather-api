@@ -1,27 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Weather API</title>
-    <meta charset="utf-8" />
-</head>
-<body>
-    <h1>Weather API</h1>
-    <p>Enter Your City</p>
+//- 
+//- script(type='text/javascript').
+//-     let cardOne = !{weatherOne}  
+//-     let cardTwo = !{weatherTwo}
+//-     let cardThre = !{weatherThre}
 
-    <form class="" action="/" method="post">
-      <input type="text" name="city" value="" required>
-      <button type="submit" name="button">Check</button>
-    </form>
-    <span>#{City} #{Weather} #{Temperatura} F #{Pressure} GPa</span>
-</body>
-<html>
 
-//- If Request != null - OK
+//-     <form class="" action="/" method="post">
+//-       <input type="text" name="city" value="" required>
+//-       <button type="submit" name="button">Check</button>
+//-     </form>
+//-     <span>#{city} #{weather} #{temperatura} F #{pressure} GPa #{humidity} #{windSpeed} #{windDeg} #{sunSet} #{sunRise} #{visibility}</span>
 
- //- if(#{Request} !== null){
- //-  #{City} #{Weather}
- //-   #{Temperatura}
- //-   #{Pressure}
+
+
+//- cardOne / Two / Thre
+//- 1)название города - cardOne/ Two / Thre.city
+//- 2)описание погоды - cardOne/ Two / Thre.weather
+//- 3)Температура     - cardOne/ Two / Thre.temperatura
+//- 4)Давление        - cardOne/ Two / Thre.pressure
+//- 5)Влажность       - cardOne/ Two / Thre.humidity
+//- 6)Скорость ветра м\с       - cardOne/ Two / Thre.windSpeed
+//- 7)Направление ветра град. - cardOne/ Two / Thre.windDeg
+//- 8)Время заката    - cardOne/ Two / Thre.sunSet
+//- 9)Время расвета   - cardOne/ Two / Thre.sunRise
+//- error / request
+
+//- #{variable}
+
+//- POST REQUEST INPUT
+//- 1)название города - city
+//- 2)описание погоды - weather
+//- 3)Температура     - temperatura
+//- 4)Давление        - pressure
+//- 5)Влажность       - humidity
+//- 6)Скорость ветра м\с       - windSpeed
+//- 7)Направление ветра град. - windDeg
+//- 8)Время заката    - sunSet
+//- 9)Время расвета   - sunRise
+
+
+
+
+ //- if(#{request} !== false){
+ //-   
+ //-   
+ //-   input weather
+ //-   
  //- }
  //- if(error !== null){
  //-   #{error}
